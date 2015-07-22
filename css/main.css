@@ -1,0 +1,192 @@
+@CHARSET "ISO-8859-1";
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+body {
+	line-height: 1;
+	color: black;
+	background: white;
+}
+ol, ul {
+	list-style: none;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url("../StyleSheets/BAUHS93.TTF");
+}
+
+#header
+{
+	width:100%;
+	height:10%;
+	font-size: xx-large;
+	font-family:  myFirstFont;
+	color:green;
+	background-color: white;
+	text-transform: ;
+
+	
+}
+
+#subTitle
+{
+	font-size: small;
+	font-weight: bold;
+	color:black;
+	margin-left: 4%;
+}
+
+#socialLinks
+{
+	width:100%;
+	height:10%;
+	text-align: right;	
+	margin-top: 0.3%;
+	
+}
+
+#socialLinks img
+{
+	width:30px;
+}
+
+#socialLinks ul
+{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+#socialLinks ul li
+{
+	display: inline;
+}
+
+#footer
+{
+	width:100%;
+	height:5%;
+	margin-top:0%;
+	text-align: center;
+	background-color: 	#AAF200;
+	color:blue;
+}
+
+#navigator
+{
+	width:100%;
+	height:15%;
+	background-color: #FF6600;
+	font-family: sans-serif;
+	margin-top: -1%;
+	
+}
+
+#navigator a
+{
+	color: white;
+}
+#navigator ul
+{
+	list-style: none;
+}
+
+#navigator ul li
+{
+	display: inline;
+	margin: 5px;	
+}
+
+#content_imageSlider
+{
+	width:60.2%;
+	height:40%;
+	float:left;
+	
+}
+
+#content_text
+{
+	width:39.2%;
+	height:40%;
+	float:left;
+	font-family: bookmanoldstyle;
+	font-size: medium;
+	text-align: justify;
+	
+}
+
+#news
+{
+	width: 100%;
+	height: 10%;
+	background-color: #336699;
+	color: white;
+	margin-top:0%;
+}
+
+#news a
+{
+	text-decoration: none;
+	color: orange;
+}
+
+#pest_recognition_link
+{
+	width:100%;
+	height:30%;
+	margin-top:23%;
+	
+}
+
+#prl_instance_1
+{
+	width:100%;
+	height:95%;
+	margin-top:0.5%;
+	font-size:small;
+	text-align: justify;
+	margin-left:0.5%;
+	border-right: solid;
+	
+}
+
+  
+
